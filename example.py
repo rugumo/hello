@@ -5,8 +5,7 @@ Example script demonstrating basic usage of the PyTorch models
 import torch
 import torch.nn as nn
 import torch.optim as optim
-from hello import SimpleNet
-from hello.model import ConvNet
+from hello import SimpleNet, ConvNet
 from hello.utils import train_step, evaluate
 
 

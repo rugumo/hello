@@ -77,8 +77,7 @@ This will:
 
 ```python
 import torch
-from hello import SimpleNet
-from hello.model import ConvNet
+from hello import SimpleNet, ConvNet
 from hello.utils import train_step, evaluate
 
 # Create a simple feedforward network

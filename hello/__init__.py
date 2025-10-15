@@ -4,6 +4,6 @@ Hello - A pure PyTorch project
 
 __version__ = "0.1.0"
 
-from .model import SimpleNet
+from .model import SimpleNet, ConvNet
 
-__all__ = ["SimpleNet"]
+__all__ = ["SimpleNet", "ConvNet"]
